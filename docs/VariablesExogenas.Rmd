@@ -28,11 +28,11 @@ Sin embargo, para muchas series económicas deseamos modelar la relación entre 
 
 Empezamos con el modelo dinámico con variables independientes más sencillo.
 
-Por simplicidad de notación, miraremos el caso con una sola variable independiente $z_t$. En la practica suele haber más de una variable, pero en los casos que veremos a continuación, la extensión a modelos más generales es sencilla. 
+Por simplicidad de notación, miraremos el caso con una sola variable independiente $z_t$. En la práctica suele haber más de una variable, pero en los casos que veremos a continuación, la extensión a modelos más generales es sencilla. 
 
 #
 
-Cuando el proceso $x_t$ depende solamente de nuestra variable independiente $z_t$ y no de rezagos de si mismo, tenemos lo que es llamado el modelo de rezagos distribuidos. 
+Cuando el proceso $x_t$ depende solamente de nuestra variable independiente $z_t$ y no de rezagos de sí mismo, tenemos lo que es llamado el modelo de rezagos distribuidos. 
 
 #
 
@@ -45,7 +45,7 @@ Este se puede escribir como,
 
 #
 
-En muchos casos $z_t$ esta correlacionado con algunos o todos los rezagos $z_{t-j}$ para $j \geq 1$.
+En muchos casos $z_t$ está correlacionado con algunos o todos los rezagos $z_{t-j}$ para $j \geq 1$.
 
 En consecuencia, los estimadores MCO de $\beta_j$ en la ecuación anterior pueden ser bastante imprecisos.
 
